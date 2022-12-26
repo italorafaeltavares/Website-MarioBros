@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  justify-content: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s;
+  font-family: "Press Start 2P", cursive;
+}
+
+#li-home:hover {
+  color: #ff0000;
+}
+
+#li-contact:hover {
+  color: #00fe00;
+}
+
+#li-photo:hover {
+  color: #fef300;
+}
+
+#li-coment:hover {
+  color: #00b0fe;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+#banner {
+  background-image: url("https://www.videogameschronicle.com/files/2020/03/Super-Mario-30.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+#trailer-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trailer {
+  width: 50%;
+  height: 300px;
+  border: none;
+}
+
+#sinopse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.description {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  width: 70%;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: #d21617;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: node;
+  margin-top: 25px;
+}
+
+.button:hover {
+  background-color: #fef300;
+  color: #000;
+}
+
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.banner-1 {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3db572cf-3470-487c-951f-b856d1c38219/dfj2oqq-b53f20c8-752d-460e-896b-48b1a1d341f7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNkYjU3MmNmLTM0NzAtNDg3Yy05NTFmLWI4NTZkMWMzODIxOVwvZGZqMm9xcS1iNTNmMjBjOC03NTJkLTQ2MGUtODk2Yi00OGIxYTFkMzQxZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1EUqgCetxTE3a790DoZ8_WcZBXC3NX0lrZtUKz5ogns");
+}
+
+.banner-2 {
+  background-image: url("https://static.wikia.nocookie.net/doblaje/images/e/e1/Luigi_New_Super_Mario_Bros_U_Deluxe.png/revision/latest?cb=20190208044235&path-prefix=es");
+}
+
+.banner-3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/pt/4/48/Yoshi.png");
+}
+
+footer {
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span {
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 12px;
+}
+
+.footer-navigation {
+  display: none;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer-list {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #banner {
+    background-position: 40%;
+  }
+
+  #trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trailer {
+    width: 100%;
+  }
+
+  #sinopse {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
+}

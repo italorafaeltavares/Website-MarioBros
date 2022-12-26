@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato</title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./img/icon.png" alt="logo" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li id="li-home">Home</li>
+                </a>
+                <a href="./fotos.html">
+                    <li id="li-photo">Fotos</li>
+                </a>
+                <a href="./contato.html">
+                    <li id="li-contact">Contato</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li id="li-coment">Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+        <img src="./img/mario.gif" alt="mario_gif" id="banner_two">
+        <form class="formulario" action="./index.html" method="post">
+            <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+        
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+        
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./img/icon.png" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: italorafaeltavares</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
