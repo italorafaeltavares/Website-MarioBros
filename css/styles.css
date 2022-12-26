@@ -131,8 +131,8 @@ li {
 }
 
 .card {
-  width: 100%;
-  height: 500px;
+  width: 90%;
+  height: 350px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -157,7 +157,7 @@ li {
 }
 
 .banner-2 {
-  background-image: url("https://static.wikia.nocookie.net/doblaje/images/e/e1/Luigi_New_Super_Mario_Bros_U_Deluxe.png/revision/latest?cb=20190208044235&path-prefix=es");
+  background-image: url("https://www.imagenspng.com.br/wp-content/uploads/2015/02/super-mario-luigi-01.png");
 }
 
 .banner-3 {
