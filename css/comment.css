@@ -66,7 +66,7 @@ p {
   background-color: white;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .footer-navigation {
     display: block;
   }
@@ -83,4 +83,4 @@ p {
     grid-template-columns: 1fr;
     padding: 0 10px 0 10px;
   }
-}
+} */
